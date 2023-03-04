@@ -101,6 +101,7 @@ p {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--Body-text-color-SLATE);
+    font-style: normal;
 }
 
 .mail:hover,
@@ -112,6 +113,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Pressed-state-color-OCEAN);
+    font-style: normal;
 }
 
 /* buttons */
