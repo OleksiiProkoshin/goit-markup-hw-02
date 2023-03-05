@@ -14,38 +14,20 @@ body {
     color: var(--Body-text-color-SLATE);
 }
 
-h1 {
+.hero {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.07px;
+    text-align: center;
     color: #FFFFFF;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2%;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2%
 }
 
 .link {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%
-}
-
 /* Header */
-/* main menu */
 
 .web {
     width: 44px;
@@ -126,8 +108,58 @@ p {
     font-style: normal;
 }
 
+/* section one */
+.section-one {
+    background-color: var(--Headings-color-Navyblue)
+}
+
+/* section two */
+.section-two {
+    list-style: none;
+}
+
+.hdr-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--Headings-color-Navyblue);
+}
+
+.hdr-three {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--Headings-color-Navyblue);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Body-text-color-SLATE);
+}
+
+/* section three */
+.section-three {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--Headings-color-Navyblue);
+}
+
+/* section four */
+
 /* buttons */
 .order-service-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
     left: 636px;
@@ -166,17 +198,7 @@ p {
     cursor: pointer;
 }
 
-.menu-links {
-    list-style-type: none;
-}
 
-.images-list {
-    list-style-type: none;
-}
-
-.our-skills {
-    list-style-type: none;
-}
 
 /* footer */
 .footer {
