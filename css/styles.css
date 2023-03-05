@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--Body-text-color-SLATE);
 }
 
@@ -18,7 +18,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.07px;
+    line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
 }
@@ -58,9 +58,7 @@ body {
     color: var(--Headings-color-Navyblue);
 }
 
-.Studio,
-.Portfolio,
-.Contacts {
+.menu-link {
     width: 66px;
     height: 24px;
     font-weight: 500;
@@ -70,12 +68,8 @@ body {
     color: var(--Headings-color-Navyblue)
 }
 
-.Studio:hover,
-:focus,
-.Portfolio:hover,
-:focus,
-.Contacts:hover,
-:focus {
+.menu-link:focus,
+.menu-link:hover {
     color: var(--Pressed-state-color-OCEAN);
 }
 
@@ -154,6 +148,7 @@ body {
 
 /* buttons */
 .order-service-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
