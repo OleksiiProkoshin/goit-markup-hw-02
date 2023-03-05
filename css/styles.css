@@ -27,6 +27,10 @@ body {
     text-decoration: none;
 }
 
+.list {
+    list-style: none;
+}
+
 /* Header */
 
 .web {
@@ -77,10 +81,6 @@ body {
 
 .adress {
     font-style: normal
-}
-
-.list {
-    list-style: none;
 }
 
 .mail,
@@ -152,8 +152,6 @@ body {
     color: var(--Headings-color-Navyblue);
 }
 
-/* section four */
-
 /* buttons */
 .order-service-button {
     font-weight: 500;
@@ -197,8 +195,6 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
-
-
 
 /* footer */
 .footer {
