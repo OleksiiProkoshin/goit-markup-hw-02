@@ -73,12 +73,11 @@ body {
     color: var(--Pressed-state-color-OCEAN);
 }
 
-.adress {
+.adress-list {
     font-style: normal
 }
 
-.mail,
-.phone {
+.adress {
     width: 153px;
     height: 24px;
     left: 940px;
@@ -90,10 +89,8 @@ body {
     font-style: normal;
 }
 
-.mail:hover,
-.phone:hover,
-.mail:focus,
-.phone:focus {
+.adress:hover,
+.adress:focus {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
